@@ -194,6 +194,18 @@ p {
 }
 /* End @media */
 
+#work:before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 120px;
+        background: black;
+        border: none;
+        clip-path: polygon(100% 50%, 0 100%, 100% 100%);
+
+}
 
 /* Start Links and Button */
 
@@ -540,9 +552,15 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .client__logo {
-    height: 15.5rem;
+     height: 15.5rem;
     max-width: 20rem;
 }
+
+.erc {
+   max-width: 12rem;
+}
+
+
 
 @media(max-width: 1240px) {
     .client__logos {
