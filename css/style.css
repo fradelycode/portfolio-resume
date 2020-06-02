@@ -562,9 +562,12 @@ body:not(.user-is-tabbing) a:focus {
 /* Start About */
 
 .about__content {
-    display: flex;
-    flex-direction: row-reverse;
+    display: block;
     align-items: center;
+}
+
+.about__text, .work__text {
+    text-align: justify;
 }
 
 
@@ -575,19 +578,14 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-.about__photo-container {
-    margin-bottom: var(--gutter-normal);
-}
+
 
 @media(min-width: 901px) {
     .about__text {
         flex: 0 0  35%;
     }
 
-    .about__photo-container {
-        flex: 1;
-        margin: 0 var(--gutter-huge) 0 0;
-    }
+
 }
 /* End About */
 /* ------------------------- */
