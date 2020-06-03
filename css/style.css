@@ -1,4 +1,13 @@
 /**
+ * /* ----------------------------------------------------------------------
+ *
+ * @format
+ */
+
+/* -------------------FRADELY CODE 2020 PORTFOLIO----------------------- */
+/* -------------------------------------------------------------------- */
+
+/**
  * /*Fradely Code 2020
  *
  * @format
@@ -52,7 +61,7 @@
 	--container-small-width: 500px;
 
 	--gutter-huge: 12rem;
-	--gutter-medium: 6rem;
+	--gutter-medium: 5rem;
 	--gutter-normal: 3rem;
 	--gutter-small-1: 2.5rem;
 	--gutter-small: 2rem;
@@ -195,27 +204,6 @@ p {
 	}
 }
 /* End @media */
-
-/* section #work {
-    position: relative;
-    width: 100%;
-    height: 90vh;
-     background: linear-gradient(45deg, #8614ce, #ff0057); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-section:before {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100px;
-	background: black;
-	clip-path: polygon(100% 50%, 0 100%, 100% 100%);
-}
 
 /* Start Links and Button */
 
@@ -746,8 +734,6 @@ body:not(.user-is-tabbing) a:focus {
 	margin-top: 35px;
 }
 
-/*Fradely Code 2020*/
-
 /* --------------------------------------------------- */
 /* -------------------START SLID---------------------- */
 /* --------------------------------------------------- */
@@ -755,7 +741,6 @@ body:not(.user-is-tabbing) a:focus {
 .container {
 	width: 100%;
 	height: 100vh;
-	/* background-color: #a4152c; */
 	display: flex;
 	align-items: center;
 }
@@ -843,3 +828,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------------------- */
 /* -------------------END SLID------------------------ */
 /* --------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+/* -------------------FRADELY CODE 2020 PORTFOLIO----------------------- */
+/* -------------------------------------------------------------------- */
