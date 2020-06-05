@@ -415,7 +415,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
 	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-		url("../img/header.jpg");
+		url("../img/header2.jpg");
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -771,7 +771,7 @@ body:not(.user-is-tabbing) a:focus {
 	margin-top: 20px;
 }
 
-.marvel {
+.mar {
 	color: #32323e;
 	font-weight: bold;
 	letter-spacing: 20px;
@@ -794,7 +794,7 @@ body:not(.user-is-tabbing) a:focus {
 	transition: all ease 0.3s;
 }
 
-.box:hover .marvel {
+.box:hover .mar {
 	color: #c0292b;
 	transition: all ease 0.5s;
 }
